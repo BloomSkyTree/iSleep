@@ -1,7 +1,8 @@
-package com.example.asus.myapplication;
+package com.miaolu.isleep;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
 
 public class Video2Activity extends AppCompatActivity {
 

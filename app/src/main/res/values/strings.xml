@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">iSleep</string>
+    <string name="db_add">101.37.60.48</string>
+    <string name="db_user_id">root</string>
+    <string name="db_name">SE</string>
+    <string name="db_port">3306</string>
+    <string name="db_psw">Lxz6241996</string>
+    <string name="baidu_music_prefix">http://tingapi.ting.baidu.com/v1/restserver/ting?format=json&amp;calback=&amp;from=webapp_music&amp;method=</string>
+    <string name="baidu_music_search">baidu.ting.search.catalogSug&amp;query=</string>
+    <string name="bilibili_url_prefix">http://9bl.bakayun.cn/API/GetVideoUrl.php?cid=</string>
+    <string name="bilibili_url_tail">&amp;type=json&amp;quality=2 </string>
 </resources>

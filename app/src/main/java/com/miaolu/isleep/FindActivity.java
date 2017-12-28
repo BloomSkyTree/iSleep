@@ -1,11 +1,11 @@
-package com.example.asus.myapplication;
+package com.miaolu.isleep;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.view.menu.ActionMenuItemView;
 import android.view.View;
 import android.widget.Button;
+
 
 public class FindActivity extends AppCompatActivity {
     private Button btnSelected;
@@ -41,7 +41,7 @@ public class FindActivity extends AppCompatActivity {
             //改变btnSelected
             btnSelected = (Button) findViewById(R.id.button11);
             btnSelected.setBackgroundResource(R.drawable.mainicon2);
-            Intent intent = new Intent(FindActivity.this, com.example.asus.myapplication.MainActivity.class);
+            Intent intent = new Intent(FindActivity.this, com.miaolu.isleep.MainActivity.class);
             startActivity(intent);
         }
     }
